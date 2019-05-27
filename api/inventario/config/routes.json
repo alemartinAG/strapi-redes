@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/inventarios",
+      "handler": "Inventario.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/inventarios/count",
+      "handler": "Inventario.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/inventarios/:_id",
+      "handler": "Inventario.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/inventarios",
+      "handler": "Inventario.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/inventarios/:_id",
+      "handler": "Inventario.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/inventarios/:_id",
+      "handler": "Inventario.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

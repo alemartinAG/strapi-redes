@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "inventario",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Nombre": {
+      "default": "",
+      "type": "string"
+    },
+    "Serie": {
+      "default": "",
+      "type": "integer"
+    },
+    "Conectado": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}
